@@ -84,6 +84,7 @@ void Analyzer_clock_init(void);
 void LED_blink_init(void);
 void Button_init(void);
 void feature_2_function1(void);
+void feature_2_function2(void);
 /*******Global Variables******/
 // SET LD2
 uint32_t *pGpioaSetResetReg = (uint32_t*)GPIOA_PORT_BIT_SET_RESET_OFFSET;
@@ -208,6 +209,11 @@ void Button_init(void)
 }
 
 void feature_2_function1(void)
+{
+
+}
+
+void feature_2_function2(void)
 {
 
 }
