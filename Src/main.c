@@ -83,6 +83,7 @@
 void Analyzer_clock_init(void);
 void LED_blink_init(void);
 void Button_init(void);
+void funcion_feature1(void);
 
 /*******Global Variables******/
 // SET LD2
@@ -204,5 +205,10 @@ void Button_init(void)
 	/*NVIC irq enable */
 	uint32_t volatile *pNVICEnReg= (uint32_t*) NVICIRQEnReg;
 	*pNVICEnReg |= (1 << 6);
+
+}
+
+void funcion_feature1(void)
+{
 
 }
