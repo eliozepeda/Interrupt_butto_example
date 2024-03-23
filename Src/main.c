@@ -83,7 +83,7 @@
 void Analyzer_clock_init(void);
 void LED_blink_init(void);
 void Button_init(void);
-
+void feature_2_function1(void);
 /*******Global Variables******/
 // SET LD2
 uint32_t *pGpioaSetResetReg = (uint32_t*)GPIOA_PORT_BIT_SET_RESET_OFFSET;
@@ -204,5 +204,10 @@ void Button_init(void)
 	/*NVIC irq enable */
 	uint32_t volatile *pNVICEnReg= (uint32_t*) NVICIRQEnReg;
 	*pNVICEnReg |= (1 << 6);
+
+}
+
+void feature_2_function1(void)
+{
 
 }
