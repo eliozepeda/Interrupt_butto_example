@@ -8,3 +8,5 @@
 ../Src/main.c:212:6:feature_2_function1	1
 ../Src/main.c:217:6:feature_2_function2	1
 ../Src/main.c:222:6:feature_2_function3	1
+../Src/main.c:211:6:feature3_function1	1
+
