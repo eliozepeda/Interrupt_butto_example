@@ -86,6 +86,7 @@ void Button_init(void);
 void funcion_feature1(void);
 void funcion2_feature1(void);
 void funcion3_feature1(void);
+void funcion4_feature1(void);
 
 /*******Global Variables******/
 // SET LD2
@@ -222,5 +223,11 @@ void funcion2_feature1(void)
 
 void funcion3_feature1(void)
 {
+
+}
+
+void funcion4_feature1(void)
+{
+
 
 }
