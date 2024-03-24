@@ -90,6 +90,10 @@ void feature_2_function2(void);
 void feature_2_function3(void);
 void feature3_function1(void);
 void feature1_main(void);
+void funcion3_feature1(void);
+void funcion4_feature1(void);
+void funcion5_feature1(void);
+
 /*******Global Variables******/
 // SET LD2
 uint32_t *pGpioaSetResetReg = (uint32_t*)GPIOA_PORT_BIT_SET_RESET_OFFSET;
@@ -230,10 +234,17 @@ void funcion2_feature1(void)
 {
 
 }
+
 void feature_2_function2(void)
 {
 
 }
+
+void funcion3_feature1(void)
+{
+
+}
+
 
 void feature_2_function3(void)
 {
@@ -245,6 +256,16 @@ void feature3_function1(void)
 
 }
 void feature1_main(void)
+{
+
+
+}
+void funcion4_feature1(void)
+{
+
+
+}
+void funcion5_feature1(void)
 {
 
 }
